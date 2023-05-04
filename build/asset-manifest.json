@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Combis-App/build/static/css/main.e6a12b1d.css",
+    "main.js": "/Combis-App/build/static/js/main.0b7b258c.js",
+    "static/media/dinoBuss.jpg": "/Combis-App/build/static/media/dinoBuss.4b9a46164b71de38d78f.jpg",
+    "index.html": "/Combis-App/build/index.html",
+    "main.e6a12b1d.css.map": "/Combis-App/build/static/css/main.e6a12b1d.css.map",
+    "main.0b7b258c.js.map": "/Combis-App/build/static/js/main.0b7b258c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6a12b1d.css",
+    "static/js/main.0b7b258c.js"
+  ]
+}
