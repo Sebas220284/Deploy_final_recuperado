@@ -5,7 +5,7 @@ const socketIo = require("socket.io");
 const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
-
+const port = process.env.PORT || 5000;
 // Configura Socket.io
 io.on("connection", (socket) => {
   console.log("Un nuevo cliente se ha conectado");
@@ -20,5 +20,5 @@ io.on("connection", (socket) => {
 });
 
 // Inicia el servidor
-const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => console.log(`Servidor iniciado en el puerto ${PORT}`));
+//const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => console.log(`Servidor iniciado en el puerto ${port}`));
