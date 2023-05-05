@@ -21,4 +21,4 @@ io.on("connection", (socket) => {
 
 // Inicia el servidor
 //const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => console.log(`Servidor iniciado en el puerto ${port}`));
+server.listen(port, () => console.log(`Servidor iniciado en el puerto ${port}`));
