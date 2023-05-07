@@ -15,8 +15,8 @@ cName: "nav-text",
 
      {
 
-        title:"Contact",
-        path:"/contact",
+        title:"Soporte",
+        path:"/soporte",
         icons: <RiIcons.RiContactsLine/>,
         cName: "nav-text",
         

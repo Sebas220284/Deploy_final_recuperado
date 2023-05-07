@@ -11,6 +11,7 @@ import Location from "./components/MapaConductor";
 
 import { Cliente } from "./client/Cliente";
 import { MapasUbicacion } from "./pages/MapasUbicacion";
+import SoporteUsuarios from "./components/SoporteUsuarios";
 
 
 function App() {
@@ -51,6 +52,13 @@ function App() {
            
               </ProtectedRoute>
             }
+          />
+          <Route
+          
+          path="soporte"
+          element={<ProtectedRoute>
+            <SoporteUsuarios/>
+          </ProtectedRoute>}
           />
         
         </Routes>

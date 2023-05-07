@@ -1,4 +1,4 @@
- 'react-map-gl';
+ '!react-map-gl';
 import './styles/mapas.css'
 
 
@@ -10,8 +10,8 @@ import { SocketContext } from '../context/socketContext';
 
 
 const puntoInicial={
-    lng:-122.4726,
-    lat:37.8010,
+    lng:-91.866186,
+    lat:16.381093,
     zoom:10
 }
 export const MapaUsuario = () => {

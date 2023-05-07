@@ -1,5 +1,9 @@
+/* eslint import/no-webpack-loader-syntax: off  */
+
 import { useCallback, useEffect, useRef, useState } from 'react'
-import mapboxgl from 'mapbox-gl'
+//@ts-ignore
+
+import mapboxgl from '!mapbox-gl'
 import { v4 } from 'uuid'
 import { Subject } from 'rxjs'
 

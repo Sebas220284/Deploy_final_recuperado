@@ -1,5 +1,9 @@
+
+
+/* eslint import/no-webpack-loader-syntax: off  */
 import React, { useState, useEffect } from 'react';
-import mapboxgl from 'mapbox-gl';
+//@ts-ignore
+import mapboxgl from '!mapbox-gl';
 import axios from 'axios';
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2ViYXMyMjAyODQiLCJhIjoiY2xleG1temljMG8weDN3bXpjaTBjMnhxbyJ9.hlnZIM_0ujgLb1CHLejxrw';
