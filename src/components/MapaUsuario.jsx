@@ -1,4 +1,4 @@
- '!react-map-gl';
+'!react-map-gl';
 import './styles/mapas.css'
 
 

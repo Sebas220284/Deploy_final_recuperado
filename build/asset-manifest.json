@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.37e20e3d.css",
-    "main.js": "/static/js/main.a49f057a.js",
+    "main.js": "/static/js/main.d9e59f69.js",
     "static/media/dinoBuss.jpg": "/static/media/dinoBuss.4b9a46164b71de38d78f.jpg",
     "index.html": "/index.html",
     "main.37e20e3d.css.map": "/static/css/main.37e20e3d.css.map",
-    "main.a49f057a.js.map": "/static/js/main.a49f057a.js.map"
+    "main.d9e59f69.js.map": "/static/js/main.d9e59f69.js.map"
   },
   "entrypoints": [
     "static/css/main.37e20e3d.css",
-    "static/js/main.a49f057a.js"
+    "static/js/main.d9e59f69.js"
   ]
 }
